@@ -13,7 +13,37 @@ button {font-family:Rubik;margin:0px;padding:0px;border:none;cursor:pointer;disp
 @media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px) {#name{font-size:83px;margin-block-end:32px;}}
 @media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px) {#name{font-size:194px;margin-block-end:75px;}}
 @media (min-width:768px) {#name{font-size:199px;margin-block-end:77px;}}
-
+#M {margin:0px;border:none;padding:0px;}
+@media (max-width:319.99999999999999999999999999999999999999px) {#M {margin-block-end:20px;}}
+@media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px) {#M {margin-block-end:32px;}}
+@media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px) {#M {margin-block-end:75px;}}
+@media (min-width:768px) {#M {margin-block-end:77px;}}
+#IMG3 {margin:0px;border:none;padding:0px;display:inline-block;}
+@media (max-width:319.99999999999999999999999999999999999999px){#IMG3 {background-image:url("3 BY 3 TOO SMALL WIDTH AND HEIGHT + PX.png");width:200px;height:200px;}}
+@media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px){#IMG3 {background-image:url("3 BY 3 PHONE WIDTH AND HEIGHT + PX.png");width:320px;height:320px;}}
+@media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px){#IMG3 {background-image:url("3 BY 3 LAPTOP WIDTH AND HEIGHT + PX.png");width:750px;height:750px;}}
+@media (min-width:768px){#IMG3 {background-image:url("3 BY 3 TABLET WIDTH AND HEIGHT + PX.png");width:768px;height:768px;}}
+#W {margin:0px;border:none;padding:0px;display:inline-block;}
+#WH {margin:0px;border:none;padding:0px;font-family:Rubik;background-color:grey;color:red;}
+@media (max-width:319.99999999999999999999999999999999999999px){#WH {font-size:17px;margin-block-end:20px;}}
+@media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px){#WH {font-size:28px;margin-block-end:32px;}}
+@media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px){#WH {font-size:66px;margin-block-end:75px;}}
+@media (min-width:768px){#WH {font-size:67px;margin-block-end:77px;}}
+#LEFTHANDED {margin:0px;border:none;padding:0px;background-color:yellow;color:red;}
+@media (max-width:319.99999999999999999999999999999999999999px){#LEFTHANDED {font-size:29px;margin-block-end:20px;}}
+@media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px){#LEFTHANDED {font-size:47px;margin-block-end:32px;}}
+@media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px){#LEFTHANDED {font-size:110px;margin-block-end:75px;}}
+@media (min-width:768px){#LEFTHANDED {font-size:112px;margin-block-end:77px;}}
+#RIGHTHANDED {margin:0px;border:none;padding:0px;background-color:yellow;color:red;}
+@media (max-width:319.99999999999999999999999999999999999999px){#RIGHTHANDED {font-size:27px;margin-block-end:20px;}}
+@media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px){#RIGHTHANDED {font-size:43px;margin-block-end:32px;}}
+@media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px){#RIGHTHANDED {font-size:101px;margin-block-end:75px;}}
+@media (min-width:768px){#RIGHTHANDED {font-size:104px;margin-block-end:77px;}}
+#AMBIDEXTROUS {margin:0px;border:none;padding:0px;background-color:yellow;color:red;}
+@media (max-width:319.99999999999999999999999999999999999999px){#AMBIDEXTROUS {font-size:26px;margin-block-end:20px;}}
+@media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px){#AMBIDEXTROUS {font-size:42px;margin-block-end:32px;}}
+@media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px){#AMBIDEXTROUS {font-size:99px;margin-block-end:75px;}}
+@media (min-width:768px){#AMBIDEXTROUS {font-size:101px;margin-block-end:77px;}}
 #footer {color:black;background-color:white;margin:0px;border:none;padding:0px;font-family:Rubik;}
 @media (max-width:319.99999999999999999999999999999999999999px){#footer {font-size:7px;margin-block-start:20px;}}
 @media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px){#footer {font-size:12px;margin-block-start:32px;}}

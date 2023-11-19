@@ -75,7 +75,7 @@ button {font-family:Rubik;margin:0px;padding:0px;border:none;cursor:pointer;disp
 @media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px){#R {font-size:17px;margin-block-end:75px;}}
 @media (min-width:768px){#R {font-size:17px;margin-block-end:77px;}}
 .CO {background-color:yellow;color:red;margin:0px;border:none;padding:0px;}
-#COT {font-family:Rubik;margin:0px;border:none;padding:0px;}
+#COT {font-family:Rubik;margin:0px;border:none;padding:0px;background-color:grey;}
 @media (max-width:319.99999999999999999999999999999999999999px){#COT {font-size:8px;margin-block-end:20px;}}
 @media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px){#COT {font-size:13px;margin-block-end:32px;}}
 @media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px){#COT {font-size:30px;margin-block-end:75px;}}
