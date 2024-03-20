@@ -1,0 +1,21 @@
+body{background-color:blue;margin:0px;border:none;padding:0px;font-size:0px;}
+header{background-color:black;margin:0px;border:none;padding:0px;}
+.center{display:block;text-align:center;margin:0px;border:none;padding:0px;font-size:0px;}
+button {font-family:Rubik;margin:0px;padding:0px;border:none;cursor:pointer;display:inline-block;}
+#LOGO {margin:0px;border:none;padding:0px;font-size:0px;}
+#logo{background-repeat:no-repeat;display:inline-block;margin:0px;border:none;padding:0px;}
+@media (max-width:319.99999999999999999999999999999999999999px) {#logo{background-image:url("G-PERM LOGO TOO SMALL WIDTH AND HEIGHT + PX.png");width:200px;height:200px;}}
+@media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px) {#logo{background-image:url("G-PERM LOGO PHONE WIDTH AND HEIGHT + PX.png");width:320px;height:320px;}}
+@media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px) {#logo{background-image:url("G-PERM LOGO LAPTOP WIDTH AND HEIGHT + PX.png");width:750px;height:750px;}} 
+@media (min-width:768px) {#logo{background-image:url("G-PERM LOGO TABLET WIDTH AND HEIGHT + PX.png");width:768px;height:768px;}}
+#name {font-family:Rubik;text-align:center;color:red;margin:0px;border:none;padding:0px;}
+@media (max-width:319.99999999999999999999999999999999999999px) {#name{font-size:51px;margin-block-end:20px;}}
+@media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px) {#name{font-size:83px;margin-block-end:32px;}}
+@media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px) {#name{font-size:194px;margin-block-end:75px;}}
+@media (min-width:768px) {#name{font-size:199px;margin-block-end:77px;}}
+
+#footer {color:black;background-color:white;margin:0px;border:none;padding:0px;font-family:Rubik;}
+@media (max-width:319.99999999999999999999999999999999999999px){#footer {font-size:7px;margin-block-start:20px;}}
+@media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px){#footer {font-size:12px;margin-block-start:32px;}}
+@media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px){#footer {font-size:29px;margin-block-start:75px;}}
+@media (min-width:768px){#footer {font-size:29px;margin-block-start:77px;}}
