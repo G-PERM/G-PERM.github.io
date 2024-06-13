@@ -13,6 +13,11 @@ button {font-family:Rubik;margin:0px;padding:0px;border:none;cursor:pointer;disp
 @media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px) {#name{font-size:83px;margin-block-end:32px;}}
 @media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px) {#name{font-size:194px;margin-block-end:75px;}}
 @media (min-width:768px) {#name{font-size:199px;margin-block-end:77px;}}
+#M {color:magenta;background-color:cyan;margin:0px;border:none;padding:0px;font-family:Rubik;}
+@media (max-width:319.99999999999999999999999999999999999999px) {#M{font-size:47px;margin-block-end:20px;}}
+@media (min-width:320px) and (max-width:749.99999999999999999999999999999999999999px) {#M{font-size:78px;margin-block-end:32px;}}
+@media (min-width:750px) and (max-width:767.99999999999999999999999999999999999999px) {#M{font-size:180px;margin-block-end:75px;}}
+@media (min-width:768px) {#M{font-size:181px;margin-block-end:77px;}}
 
 #footer {color:black;background-color:white;margin:0px;border:none;padding:0px;font-family:Rubik;}
 @media (max-width:319.99999999999999999999999999999999999999px){#footer {font-size:7px;margin-block-start:20px;}}
