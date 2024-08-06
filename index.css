@@ -128,10 +128,9 @@ nav {
  width: 100%;
 	background-color: #696969;
 	color: #ABCDEF;
- position: sticky;
- position: -webkit-sticky;
+ position: static;
+ position: -webkit-static;
  top: 0;
- display: flex;
 }
 #logo {
  height: auto;
@@ -143,11 +142,11 @@ nav {
  vertical-align: middle;
 }
 
-#NAVtop {
+#NAVnottop {
  background-color: #303030;
  color: #FF0000;
 }
-#NAVnottop {
+#NAVtop {
  background-color: #979797;
  color: #00FFFF;
 }
@@ -176,6 +175,9 @@ nav {
  .padr {
   margin-right: 2.5vh;
  }
+ nav {
+  display: flex;
+ }
  #logo {
   width: 8vw;
  }
@@ -183,14 +185,18 @@ nav {
   max-width: 8vw;
  }
  #NAVtop {
-  background-color: #303030;
-  color: #FF0000;
   font-size: 3vw;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  margin-left: 2.5vh;
+  margin-right: 2.5vh;
  }
  #NAVnottop {
-  background-color: #979797;
-  color: #00FFFF;
   font-size: 3vw;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  margin-left: 2.5vh;
+  margin-right: 2.5vh;
  }
  #name {
   font-size: 5vw;
@@ -221,23 +227,22 @@ nav {
  .padr {
   margin-right: 5vh;
  }
+ nav {
+  display: block;
+ }
  #logo {
-  width: 24vw;
+  width: 100vw;
  }
  #logo2 {
   max-width: 24vw;
  }
  #NAVtop {
-  background-color: #303030;
-  color: #FF0000;
-  font-size: 4vw;
+  font-size: 10vw;
  }
  #NAVnottop {
-  background-color: #979797;
-  color: #00FFFF;
-  font-size: 4vw;
+  font-size: 10vw;
  }
  #name {
-  font-size: 7.5vw;
+  font-size: 20vw;
  }
 }
