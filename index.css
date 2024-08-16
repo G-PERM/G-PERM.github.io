@@ -1,0 +1,64 @@
+/*
+Use for padding :
+Portrait : 
+margin-top: 5vw;
+margin-bottom: 5vw;
+Landscape :
+margin-top: 2.5vw;
+margin-bottom: 2.5vw;
+margin-left: 2.5vw;
+margin-right: 2.5vw;
+*/
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 0px;
+	background-color: #696969;
+}
+.responsive {
+	height: auto;
+}
+
+@media (orientation:portrait)	{
+	.responsive {
+		width: 100vw;
+	}
+	#nav {
+		display: block;
+		position: static;
+		position: -webkit-static;
+		top: 0;
+	}
+ #Navtop {
+ 	display: none;
+ }
+ #NAvnottop {
+ 	display: none;
+	}
+
+}
+@media (orientation:landscape)	{
+	.responsive {
+		width: 100vh;
+	}
+	#nav {
+		display: flex;
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
+	}
+	#Navtop {
+		font-size: 2.5vw;
+		background-color: #111111;
+		color: #EEEEEE;
+		margin-right: 2.5vw;
+ }
+ #Navnottop {
+ 	font-size: 2.5vw;
+ 	background-color: #EEEEEE;
+ 	color: #111111;
+ 	margin-right: 2.5vw;
+	}
+
+}
