@@ -1,64 +1,179 @@
 /*
 Use for padding :
-Portrait : 
-margin-top: 5vw;
-margin-bottom: 5vw;
 Landscape :
 margin-top: 2.5vw;
 margin-bottom: 2.5vw;
 margin-left: 2.5vw;
 margin-right: 2.5vw;
+Portrait : 
+margin-top: 5vw;
+margin-bottom: 5vw;
+margin-left: 5vw;
+margin-right: 5vw;
 */
 body {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-	font-size: 0px;
-	background-color: #696969;
+ background-color: #696969;
+ font-family: Rubik;
+ margin: 0;
+ padding: 0;
+ border: 0;
 }
-.responsive {
+.l {
+	margin: 0;
+  padding: 0;
+  border: 0;
+	float: left;
+}
+.c {
+	margin: 0;
+  padding: 0;
+  border: 0;
+	text-align: center;
+	vertical-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.r {
+	margin: 0;
+  padding: 0;
+  border: 0;
+	float: right;
+}
+#Nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  top: 0;
+  position: static;
+}
+button {
+	margin: 0;
+  padding: 0;
+	margin: 0;
+	display: block;
+}
+button:hover {
+	cursor: pointer;
+}
+img {
+	margin: 0;
+  padding: 0;
+	margin: 0;
+}
+#logo {
 	height: auto;
 }
+nav div div button, nav button {
+	color: #F1F2F3;
+	background-color: #345678;
+}
+nav div div button:hover, nav button:hover, .dropdown-content button:hover {
+	background-color: #969696;
+}
+.dropdown {
+  display: inline-block;
+}
+.dropdown:hover {
+  background-color: transparent;
+}
+.dropbtn {
+  display: inline-block;
+}
+#colon {
+	display: none;
+}
+.dropdown:hover #colon {
+	display: inline-block;
+}
+.nus {
+	margin: 0;
+  padding: 0;
+  border: 0;
+}
+.dropdown-content {
+	display: none;
+  position: absolute;
+  background-color: transparent;
+}
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
 
-@media (orientation:portrait)	{
-	.responsive {
-		width: 100vw;
+@media (orientation: portrait){
+	.pad {
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
+	}
+	.padl {
+		margin-left: 5vw;
+	}
+	.padr {
+		margin-right: 5vw;
+	}
+	.padt {
+		margin-top: 5vw;
+	}
+	.padb {
+		margin-bottom: 5vw;
 	}
 	#nav {
-		display: block;
 		position: static;
-		position: -webkit-static;
-		top: 0;
 	}
- #Navtop {
- 	display: none;
- }
- #NAvnottop {
- 	display: none;
+	#logo {
+		width: 15vw;
+	}
+	nav div div button, nav button {
+		font-size: 3.14159vw;
+	}
+	#Navtop {
+ 		display: none;
+  }
+ 	#Navnottop {
+ 		display: none;
 	}
 
 }
-@media (orientation:landscape)	{
-	.responsive {
-		width: 100vh;
+@media (orientation: landscape){
+	.pad {
+		margin-top: 2.5vw;
+		margin-bottom: 2.5vw;
+		margin-left: 2.5vw;
+		margin-right: 2.5vw;
+	}
+	.padl {
+		margin-left: 2.5vw;
+	}
+	.padr {
+		margin-right: 2.5vw;
+	}
+	.padt {
+		margin-top: 2.5vw;
+	}
+	.padb {
+		margin-bottom: 2.5vw;
 	}
 	#nav {
-		display: flex;
 		position: sticky;
-		position: -webkit-sticky;
-		top: 0;
+	}
+	#logo {
+		width: 5vw;
+	}
+	nav div div button, nav button {
+		font-size: 2.25vw;
 	}
 	#Navtop {
 		font-size: 2.5vw;
 		background-color: #111111;
-		color: #EEEEEE;
-		margin-right: 2.5vw;
- }
- #Navnottop {
- 	font-size: 2.5vw;
- 	background-color: #EEEEEE;
- 	color: #111111;
- 	margin-right: 2.5vw;
+	 	color: #EEEEEE;
+ 	}
+	#Navnottop {
+	 	font-size: 2.5vw;
+	 	background-color: #EEEEEE;
+		color: #111111;
 	}
 
 }
