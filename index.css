@@ -100,7 +100,19 @@ nav div div button:hover, nav button:hover, .dropdown-content button:hover {
 .dropdown:hover .dropdown-content {
   display: inline-block;
 }
-
+section {
+	margin: 0;
+  padding: 0;
+  border: 0;
+}
+.insec {
+	background-color: #A0B9C8;
+	color: #D7E6F5;
+}
+.insecimg {
+	display: block;
+	height: auto;
+}
 @media (orientation: portrait){
 	.pad {
 		margin-top: 5vw;
@@ -135,7 +147,12 @@ nav div div button:hover, nav button:hover, .dropdown-content button:hover {
  	#Navnottop {
  		display: none;
 	}
-
+	.insec{
+		font-size: 7.5vw;
+	}
+	.insecimg {
+		width: 90vw;
+	}
 }
 @media (orientation: landscape){
 	.pad {
@@ -175,5 +192,10 @@ nav div div button:hover, nav button:hover, .dropdown-content button:hover {
 	 	background-color: #EEEEEE;
 		color: #111111;
 	}
-
+	.insec {
+		font-size: 7.5vw;
+	}
+	.insecimg {
+		width: 95vh;
+	}
 }
