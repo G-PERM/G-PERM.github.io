@@ -1,33 +1,33 @@
 /*
-Use for padding :
-Landscape :
-margin-top: 2.5vw;
-margin-bottom: 2.5vw;
-margin-left: 2.5vw;
-margin-right: 2.5vw;
-Portrait : 
-margin-top: 5vw;
-margin-bottom: 5vw;
-margin-left: 5vw;
-margin-right: 5vw;
+	Use for padding :
+	Landscape :
+	margin-top: 2.5vw;
+	margin-bottom: 2.5vw;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	Portrait : 
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
 */
 body {
- background-color: #696969;
- font-family: Rubik;
- margin: 0;
- padding: 0;
- border: 0;
+	background-color: #696969;
+	font-family: Rubik;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 .l {
 	margin: 0;
-  padding: 0;
-  border: 0;
+    padding: 0;
+    border: 0;
 	float: left;
 }
 .c {
 	margin: 0;
-  padding: 0;
-  border: 0;
+    padding: 0;
+    border: 0;
 	text-align: center;
 	vertical-align: center;
 	display: block;
@@ -36,21 +36,21 @@ body {
 }
 .r {
 	margin: 0;
-  padding: 0;
-  border: 0;
+    padding: 0;
+    border: 0;
 	float: right;
 }
 #Nav {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background-color: transparent;
-  top: 0;
-  position: static;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+	top: 0;
+	position: static;
 }
 button {
 	margin: 0;
-  padding: 0;
+    padding: 0;
 	margin: 0;
 	display: block;
 }
@@ -59,7 +59,7 @@ button:hover {
 }
 img {
 	margin: 0;
-  padding: 0;
+    padding: 0;
 	margin: 0;
 }
 #logo {
@@ -73,13 +73,13 @@ nav div div button:hover, nav button:hover, .dropdown-content button:hover {
 	background-color: #969696;
 }
 .dropdown {
-  display: inline-block;
+	display: inline-block;
 }
 .dropdown:hover {
-  background-color: transparent;
+	background-color: transparent;
 }
 .dropbtn {
-  display: inline-block;
+	display: inline-block;
 }
 #colon {
 	display: none;
@@ -89,21 +89,21 @@ nav div div button:hover, nav button:hover, .dropdown-content button:hover {
 }
 .nus {
 	margin: 0;
-  padding: 0;
-  border: 0;
+    padding: 0;
+    border: 0;
 }
 .dropdown-content {
 	display: none;
-  position: absolute;
-  background-color: transparent;
+    position: absolute;
+    background-color: transparent;
 }
 .dropdown:hover .dropdown-content {
-  display: inline-block;
+    display: inline-block;
 }
 section {
 	margin: 0;
-  padding: 0;
-  border: 0;
+    padding: 0;
+    border: 0;
 }
 .insec {
 	background-color: #A0B9C8;
@@ -173,9 +173,6 @@ section {
 	.padb {
 		margin-bottom: 2.5vw;
 	}
-	#nav {
-		position: sticky;
-	}
 	#logo {
 		width: 5vw;
 	}
@@ -184,13 +181,13 @@ section {
 	}
 	#Navtop {
 		font-size: 2.5vw;
-		background-color: #111111;
-	 	color: #EEEEEE;
+	 	background-color: #EEEEEE;
+		color: #111111;
  	}
 	#Navnottop {
 	 	font-size: 2.5vw;
-	 	background-color: #EEEEEE;
-		color: #111111;
+		background-color: #111111;
+	 	color: #EEEEEE;
 	}
 	.insec {
 		font-size: 7.5vw;
