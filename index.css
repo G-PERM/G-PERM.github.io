@@ -113,6 +113,10 @@ section {
 	display: block;
 	height: auto;
 }
+.nota {
+	background-color: #BFCAED;
+	color: #242847;
+}
 @media (orientation: portrait){
 	.pad {
 		margin-top: 5vw;
@@ -142,16 +146,23 @@ section {
 		font-size: 3.14159vw;
 	}
 	#Navtop {
- 		display: none;
-  }
- 	#Navnottop {
- 		display: none;
+		font-size: 2.5vw;
+	 	background-color: #EEEEEE;
+		color: #111111;
+ 	}
+	#Navnottop {
+	 	font-size: 2.5vw;
+		background-color: #111111;
+	 	color: #EEEEEE;
 	}
 	.insec{
 		font-size: 7.5vw;
 	}
 	.insecimg {
 		width: 90vw;
+	}
+	.nota {
+		font-size: 5vw;
 	}
 }
 @media (orientation: landscape){
@@ -194,5 +205,8 @@ section {
 	}
 	.insecimg {
 		width: 95vh;
+	}
+	.nota {
+		font-size: 7.5vw;
 	}
 }
