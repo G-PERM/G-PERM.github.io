@@ -14,7 +14,7 @@ function pyraminx() {
 	window.open("pyraminx.html","_blank")
 }
 function testimonial() {
-	window.open("Testimonial/testimonial.html","_blank")
+	window.open("testimonial.html","_blank")
 }
 function contact() {
 	window.open("https://forms.gle/guFuocEGUjvGn8Ef9","_blank")
