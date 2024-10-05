@@ -64,6 +64,9 @@ img {
 #logo {
 	height: auto;
 }
+#Nav {
+	background-color: #888888;
+}
 nav div div button, nav button {
 	color: #F1F2F3;
 	background-color: #345678;
@@ -116,6 +119,7 @@ section {
 	background-color: #BFCAED;
 	color: #242847;
 }
+
 @media (orientation: portrait){
 	.pad {
 		margin-top: 5vw;
@@ -135,22 +139,23 @@ section {
 	.padb {
 		margin-bottom: 5vw;
 	}
-	#nav {
+	#Nav {
 		position: static;
+		height: 5vh;
 	}
 	#logo {
-		width: 15vw;
+		width: 8vw;
 	}
 	nav div div button, nav button {
-		font-size: 3.14159vw;
+		font-size: 2.71828vw;
 	}
 	#Navtop {
-		font-size: 2.5vw;
+		font-size: 2.71828vw;
 	 	background-color: #EEEEEE;
 		color: #111111;
  	}
 	#Navnottop {
-	 	font-size: 2.5vw;
+	 	font-size: 2.71828vw;
 		background-color: #111111;
 	 	color: #EEEEEE;
 	}
@@ -163,6 +168,7 @@ section {
 	.nota {
 		font-size: 5vw;
 	}
+
 }
 @media (orientation: landscape){
 	.pad {
@@ -183,19 +189,23 @@ section {
 	.padb {
 		margin-bottom: 2.5vw;
 	}
+	#Nav {
+		position: static;
+		height: 5vh;
+	}
 	#logo {
-		width: 5vw;
+		width: 1.71828vw;
 	}
 	nav div div button, nav button {
-		font-size: 2.25vw;
+		font-size: 1.71828vw; 
 	}
 	#Navtop {
-		font-size: 2.5vw;
+		font-size: 1.71828vw;
 	 	background-color: #EEEEEE;
 		color: #111111;
  	}
 	#Navnottop {
-	 	font-size: 2.5vw;
+	 	font-size: 1.71828vw;
 		background-color: #111111;
 	 	color: #EEEEEE;
 	}
@@ -208,4 +218,5 @@ section {
 	.nota {
 		font-size: 7.5vw;
 	}
+
 }
