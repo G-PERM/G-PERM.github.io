@@ -137,10 +137,12 @@ section {
 	color: #242847;
 }
 #testimonial {
+	border-radius: 5vw;
 	display: flex;
+	background-color: #4087DD;
 }
 #testex{
-	border-radius: 2.71vw;
+	border-radius: 4.71vw;
 	font-size: 2.71vw;
 	color: #CC4545;
 	background-color: #28FF36;
@@ -152,16 +154,12 @@ a {
 	color: #CC4545;
 }
 #myphoto {
-	border-radius: 2.71vw;
+	border-radius: 9.4245vw;
 	display: block;
-	height: 80vh;
 }
 @media (orientation: portrait){
 	.mar {
-		margin-top: 5vw;
-		margin-bottom: 5vw;
-		margin-left: 5vw;
-		margin-right: 5vw;
+		margin: 5vw;
 	}
 	.marl {
 		margin-left: 5vw;
@@ -174,6 +172,21 @@ a {
 	}
 	.marb {
 		margin-bottom: 5vw;
+	}
+	.pad {
+		padding: 5vw;
+	}
+	.padl {
+		padding-left: 5vw;
+	}
+	.padr {
+		padding-right: 5vw;
+	}
+	.padt {
+		padding-top: 5vw;
+	}
+	.padb {
+		padding-bottom: 5vw;
 	}
 	#Nav {
 		position: static;
@@ -205,7 +218,10 @@ a {
 		font-size: 5vw;
 	}
 	#testimonial{
-		width: 90vw;
+		width: 95vw;
+	}
+	#myphoto {
+		height: 100vh;
 	}
 }
 @media (orientation: landscape){
@@ -226,6 +242,21 @@ a {
 	}
 	.marb {
 		margin-bottom: 2.5vw;
+	}
+	.pad {
+		padding: 2.5vw;
+	}
+	.padl {
+		padding-left: 2.5vw;
+	}
+	.padr {
+		padding-right: 2.5vw;
+	}
+	.padt {
+		padding-top: 2.5vw;
+	}
+	.padb {
+		padding-bottom: 2.5vw;
 	}
 	#Nav {
 		position: static;
@@ -257,6 +288,9 @@ a {
 		font-size: 7.5vw;
 	}
 	#testimonial{
-		width: 95vw;
+		width: 90vw;
+	}
+	#myphoto {
+		height: 100vh;
 	}
 }
