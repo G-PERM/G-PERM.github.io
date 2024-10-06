@@ -10,6 +10,18 @@
 	margin-bottom: 5vw;
 	margin-left: 5vw;
 	margin-right: 5vw;
+	&
+	Use for padding :
+	Landscape :
+	padding-top: 2.5vw;
+	padding-bottom: 2.5vw;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	Portrait : 
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
 */
 body {
 	background-color: #696969;
