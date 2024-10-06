@@ -143,7 +143,6 @@ section {
 }
 #testex{
 	border-radius: 4.71vw;
-	font-size: 2.71vw;
 	color: #CC4545;
 	background-color: #28FF36;
 }
@@ -190,21 +189,24 @@ a {
 	}
 	#Nav {
 		position: static;
-		height: 5vh;
+		height: 12.5vh;
 	}
 	#logo {
-		width: 4vh;
+		width: 5vh;
+	}
+	#gperm{
+		font-size: 6vw;
 	}
 	nav div div button, nav button {
-		font-size: 2.71828vw;
+		font-size: 5.71828vw;
 	}
 	#Navtop {
-		font-size: 2.71828vw;
+		font-size: 5.71828vw;
 	 	background-color: #EEEEEE;
 		color: #111111;
  	}
 	#Navnottop {
-	 	font-size: 2.71828vw;
+	 	font-size: 5.71828vw;
 		background-color: #111111;
 	 	color: #EEEEEE;
 	}
@@ -218,10 +220,15 @@ a {
 		font-size: 5vw;
 	}
 	#testimonial{
-		width: 95vw;
+		margin-left: 5vw;
+		display: inline-block;
+		width: 80vw;
+	}
+	#testex{
+		font-size: 5vw;
 	}
 	#myphoto {
-		height: 100vh;
+		width: 70vw;
 	}
 }
 @media (orientation: landscape){
@@ -289,6 +296,9 @@ a {
 	}
 	#testimonial{
 		width: 90vw;
+	}
+	#testex{
+		font-size: 2.71vw;
 	}
 	#myphoto {
 		height: 100vh;
