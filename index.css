@@ -1,5 +1,5 @@
 /*
-	Use for padding :
+	Use for margin :
 	Landscape :
 	margin-top: 2.5vw;
 	margin-bottom: 2.5vw;
@@ -39,6 +39,10 @@ body {
     border: 0;
 	float: right;
 }
+.responsive {
+	width: auto;
+	height: auto;
+}
 #Nav {
 	margin: 0;
 	padding: 0;
@@ -50,7 +54,7 @@ body {
 button {
 	margin: 0;
     padding: 0;
-	margin: 0;
+	border: 0;
 	display: block;
 }
 button:hover {
@@ -59,7 +63,8 @@ button:hover {
 img {
 	margin: 0;
     padding: 0;
-	margin: 0;
+	border: 0;
+	font-size: 0;
 }
 #logo {
 	height: auto;
@@ -119,24 +124,43 @@ section {
 	background-color: #BFCAED;
 	color: #242847;
 }
-
+#testimonial {
+	display: flex;
+}
+#testex{
+	border-radius: 2.71vw;
+	font-size: 2.71vw;
+	color: #CC4545;
+	background-color: #28FF36;
+}
+a {
+	text-decoration: none;
+}
+#owlink {
+	color: #CC4545;
+}
+#myphoto {
+	border-radius: 2.71vw;
+	display: block;
+	height: 80vh;
+}
 @media (orientation: portrait){
-	.pad {
+	.mar {
 		margin-top: 5vw;
 		margin-bottom: 5vw;
 		margin-left: 5vw;
 		margin-right: 5vw;
 	}
-	.padl {
+	.marl {
 		margin-left: 5vw;
 	}
-	.padr {
+	.marr {
 		margin-right: 5vw;
 	}
-	.padt {
+	.mart {
 		margin-top: 5vw;
 	}
-	.padb {
+	.marb {
 		margin-bottom: 5vw;
 	}
 	#Nav {
@@ -144,7 +168,7 @@ section {
 		height: 5vh;
 	}
 	#logo {
-		width: 8vw;
+		width: 4vh;
 	}
 	nav div div button, nav button {
 		font-size: 2.71828vw;
@@ -168,25 +192,27 @@ section {
 	.nota {
 		font-size: 5vw;
 	}
-
+	#testimonial{
+		width: 90vw;
+	}
 }
 @media (orientation: landscape){
-	.pad {
+	.mar {
 		margin-top: 2.5vw;
 		margin-bottom: 2.5vw;
 		margin-left: 2.5vw;
 		margin-right: 2.5vw;
 	}
-	.padl {
+	.marl {
 		margin-left: 2.5vw;
 	}
-	.padr {
+	.marr {
 		margin-right: 2.5vw;
 	}
-	.padt {
+	.mart {
 		margin-top: 2.5vw;
 	}
-	.padb {
+	.marb {
 		margin-bottom: 2.5vw;
 	}
 	#Nav {
@@ -218,5 +244,7 @@ section {
 	.nota {
 		font-size: 7.5vw;
 	}
-
+	#testimonial{
+		width: 95vw;
+	}
 }
