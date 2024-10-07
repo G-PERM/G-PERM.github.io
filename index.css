@@ -161,6 +161,11 @@ a {
 	background-color: #BCBCBC;
 	color: #343434;
 }
+#NOHE {
+	background-color: transparent;
+	color: #EF5047;
+}
+
 @media (orientation: portrait){
 	.mar {
 		margin: 5vw;
@@ -238,6 +243,9 @@ a {
 	#illutice {
 		font-size: 5vw;
 	}
+	#NOHE {
+		font-size: 10vw;
+	}
 }
 @media (orientation: landscape){
 	.mar {
@@ -313,5 +321,8 @@ a {
 	}
 	#illutice {
 		font-size: 3vw;
+	}
+	#NOHE {
+		font-size: 8vw;
 	}
 }
