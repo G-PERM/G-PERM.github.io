@@ -132,10 +132,6 @@ section {
 	display: block;
 	height: auto;
 }
-.nota {
-	background-color: #BFCAED;
-	color: #242847;
-}
 #testimonial {
 	border-radius: 5vw;
 	display: flex;
@@ -155,6 +151,15 @@ a {
 #myphoto {
 	border-radius: 9.4245vw;
 	display: block;
+}
+#notation {
+	background-color: #4087DD;
+	border-radius: 3.75vw;
+}
+#illutice {
+	border-radius: 3.75vw;
+	background-color: #BCBCBC;
+	color: #343434;
 }
 @media (orientation: portrait){
 	.mar {
@@ -230,6 +235,9 @@ a {
 	#myphoto {
 		width: 70vw;
 	}
+	#illutice {
+		font-size: 5vw;
+	}
 }
 @media (orientation: landscape){
 	.mar {
@@ -302,5 +310,8 @@ a {
 	}
 	#myphoto {
 		height: 100vh;
+	}
+	#illutice {
+		font-size: 3vw;
 	}
 }
