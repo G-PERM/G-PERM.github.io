@@ -35,6 +35,7 @@ body {
     padding: 0;
     border: 0;
 	float: left;
+	text-align: left;
 }
 .c {
 	margin: 0;
@@ -49,6 +50,7 @@ body {
 	margin: 0;
     padding: 0;
     border: 0;
+	text-align: right;
 	float: right;
 }
 .responsive {
@@ -97,19 +99,16 @@ nav div div button:hover, nav button:hover, .dropdown-content button:hover {
 	background-color: #969696;
 }
 .dropdown {
-	display: inline-block;
-}
-.dropdown:hover {
-	background-color: transparent;
+	display: block;
 }
 .dropbtn {
-	display: inline-block;
+	display: block;
 }
 #colon {
 	display: none;
 }
 .dropdown:hover #colon {
-	display: inline-block;
+	display: inline;
 }
 .nus {
 	margin: 0;
@@ -170,9 +169,13 @@ a {
 	background-color: transparent;
 	color: #EF5047;
 }
-#WMoves {
+.Mmoves {
 	color: rgb(165, 42, 42);
 }
+.moves {
+	color: rgb(150, 209, 72);
+}
+
 @media (orientation: portrait){
 	.mar {
 		margin: 5vw;
@@ -253,11 +256,18 @@ a {
 	#NOHE {
 		font-size: 10vw;
 	}
-	#WMoves {
+	.Mmoves {
 		font-size: 9vw;
 	}
 	.FORRES {
-		display: block;
+		display: ruby;
+		width: 80vw;
+	}
+	.moves {
+		font-size: 5vw;
+	}
+	.MOILLU,.MOILLUTOO {
+		width: 70vw;
 	}
 }
 @media (orientation: landscape){
@@ -338,10 +348,20 @@ a {
 	#NOHE {
 		font-size: 8vw;
 	}
-	#WMoves {
+	.Mmoves {
 		font-size: 7vw;
 	}
 	.FORRES {
 		display: flex;
+		width: 90vw;
+	}
+	.moves {
+		font-size: 1.8vw;
+	}
+	.MOILLU {
+		width: 40vw;
+	}
+	.MOILLUTOO {
+		width: 25vw;
 	}
 }
