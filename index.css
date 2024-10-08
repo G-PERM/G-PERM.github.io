@@ -69,6 +69,11 @@ button {
 	border: 0;
 	display: block;
 }
+div {	
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 button:hover {
 	cursor: pointer;
 }
@@ -165,7 +170,9 @@ a {
 	background-color: transparent;
 	color: #EF5047;
 }
-
+#WMoves {
+	color: rgb(165, 42, 42);
+}
 @media (orientation: portrait){
 	.mar {
 		margin: 5vw;
@@ -246,6 +253,12 @@ a {
 	#NOHE {
 		font-size: 10vw;
 	}
+	#WMoves {
+		font-size: 9vw;
+	}
+	.FORRES {
+		display: block;
+	}
 }
 @media (orientation: landscape){
 	.mar {
@@ -324,5 +337,11 @@ a {
 	}
 	#NOHE {
 		font-size: 8vw;
+	}
+	#WMoves {
+		font-size: 7vw;
+	}
+	.FORRES {
+		display: flex;
 	}
 }
