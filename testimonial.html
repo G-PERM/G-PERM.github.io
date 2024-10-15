@@ -18,17 +18,30 @@
 			<button onclick="web()" class="l marr" style="background-color: transparent;">
 				<img src="G-PERM FAVICON.gif" alt="logo" id="logo">
 			</button>
-			<button onclick="web()" class="l marr" id="gperm" style="background-color: transparent; color: #FEEEEE;">
+			<button onclick="web()" class="l marr" style="background-color: transparent; color: #FEEEEE;">
 				G-PERM
 			</button>
-		    <button onclick="notation()" class="l marr">
-		  		Notation	
-		    </button>
-			<div class="dropdown marr">	
-			  	<button class="dropbtn l" id="cop">
+			<div class="dropdown">	
+				<button class="dropbtn l" id="cop">
+					Notation<span id="colon">:</span>
+				</button>
+				<div class="dropdown-content l">
+					<button onclick="notationmagic()" class="nus">
+						Magic
+					</button>
+					<button onclick="notationpocket()" class="nus">
+						Pocket
+					</button>
+					<button onclick="notationpyraminx()" class="nus">
+						Pyraminx
+					</button>
+				</div>
+			</div>
+			<div class="dropdown">	
+				<button class="dropbtn l marl2" id="cop">
 					Puzzles<span id="colon">:</span>
 				</button>
-			    <div class="dropdown-content l">
+				<div class="dropdown-content l">
 					<button onclick="magic()" class="nus">
 						Magic
 					</button>
@@ -38,8 +51,8 @@
 					<button onclick="pyraminx()" class="nus">
 						Pyraminx
 					</button>
-			  	</div>
-		  	</div>
+				</div>
+			</div>
 			<button onclick="contact()" class="r marr">
 				Contact
 			</button>
@@ -52,7 +65,7 @@
 			<button onclick="Navtop()" class="r marr" id="Navtop">
 				Nav bar on top.
 			</button>
-	  	</nav>
+		</nav>
 		<section class="pad c" id="testimonial">
 			<div class="pad l" id="testex">
 				I am Anwesh Arpan Behera.<br>

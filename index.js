@@ -1,8 +1,14 @@
 function web() {
 	window.open("index.html","_blank")
 }
-function notation() {
-	window.open("notation.html","_blank")
+function notationmagic() {
+	window.open("notationmagic.html","_blank")
+}
+function notationpocket() {
+	window.open("notationpocket.html","_blank")
+}
+function notationpyraminx() {
+	window.open("notationpyraminx.html","_blank")
 }
 function magic() {
 	window.open("magic.html","_blank")

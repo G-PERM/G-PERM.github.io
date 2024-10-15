@@ -21,11 +21,24 @@
 			<button onclick="web()" class="l marr" style="background-color: transparent; color: #FEEEEE;">
 				G-PERM
 			</button>
-		    <button onclick="notation()" class="l marr">
-		  		Notation	
-		    </button>
-			<div class="dropdown marr">	
-			  	<button class="dropbtn l" id="cop">
+			<div class="dropdown">	
+				<button class="dropbtn l" id="cop">
+				    Notation<span id="colon">:</span>
+				</button>
+				<div class="dropdown-content l">
+					<button onclick="notationmagic()" class="nus">
+						Magic
+					</button>
+					<button onclick="notationpocket()" class="nus">
+						Pocket
+					</button>
+					<button onclick="notationpyraminx()" class="nus">
+						Pyraminx
+					</button>
+				</div>
+			</div>
+			<div class="dropdown">	
+			  	<button class="dropbtn l marl2" id="cop">
 					Puzzles<span id="colon">:</span>
 				</button>
 			    <div class="dropdown-content l">
@@ -54,9 +67,6 @@
 			</button>
 	  	</nav>
 		<section class="mart marb">
-			<button onclick="notation()" class="c marb insec">
-				Notation
-			</button>
 			<button onclick="magic()" class="c marb insec">
 				<img src="MAGIC.gif" alt="magic" class="insecimg">
 				Magic

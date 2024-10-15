@@ -192,6 +192,21 @@ a {
 	.marb {
 		margin-bottom: 5vw;
 	}
+	.mar2 {
+		margin: 10vw;
+	}
+	.marl2 {
+		margin-left: 10vw;
+	}
+	.marr2 {
+		margin-right: 10vw;
+	}
+	.mart2 {
+		margin-top: 10vw;
+	}
+	.marb2 {
+		margin-bottom: 10vw;
+	}
 	.pad {
 		padding: 5vw;
 	}
@@ -206,6 +221,21 @@ a {
 	}
 	.padb {
 		padding-bottom: 5vw;
+	}
+	.pad2 {
+		padding: 10vw;
+	}
+	.padl2 {
+		padding-left: 10vw;
+	}
+	.padr2 {
+		padding-right: 10vw;
+	}
+	.padt2 {
+		padding-top: 10vw;
+	}
+	.padb2 {
+		padding-bottom: 10vw;
 	}
 	#Nav {
 		position: static;
@@ -289,6 +319,21 @@ a {
 	.marb {
 		margin-bottom: 2.5vw;
 	}
+	.mar2 {
+		margin: 5vw;
+	}
+	.marl2 {
+		margin-left: 5vw;
+	}
+	.marr2 {
+		margin-right: 5vw;
+	}
+	.mart2 {
+		margin-top: 5vw;
+	}
+	.marb2 {
+		margin-bottom: 5vw;
+	}
 	.pad {
 		padding: 2.5vw;
 	}
@@ -303,6 +348,21 @@ a {
 	}
 	.padb {
 		padding-bottom: 2.5vw;
+	}
+	.pad2 {
+		padding: 5vw;
+	}
+	.padl2 {
+		padding-left: 5vw;
+	}
+	.padr2 {
+		padding-right: 5vw;
+	}
+	.padt2 {
+		padding-top: 5vw;
+	}
+	.padb2 {
+		padding-bottom: 5vw;
 	}
 	#Nav {
 		position: static;
