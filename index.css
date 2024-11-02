@@ -302,10 +302,7 @@ a {
 }
 @media (orientation: landscape){
 	.mar {
-		margin-top: 2.5vw;
-		margin-bottom: 2.5vw;
-		margin-left: 2.5vw;
-		margin-right: 2.5vw;
+		margin: 2.5vw;
 	}
 	.marl {
 		margin-left: 2.5vw;
