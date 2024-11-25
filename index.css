@@ -57,14 +57,6 @@ body {
 	width: auto;
 	height: auto;
 }
-#Nav {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	background-color: transparent;
-	top: 0;
-	position: static;
-}
 button {
 	margin: 0;
     padding: 0;
@@ -89,7 +81,12 @@ img {
 	height: auto;
 }
 #Nav {
-	background-color: #888888;
+	background-color: #808080;
+	top: 0;
+	position: absolute;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
 }
 nav div div button, nav button {
 	color: #F1F2F3;
@@ -99,7 +96,7 @@ nav div div button:hover, nav button:hover, .dropdown-content button:hover {
 	background-color: #969696;
 }
 .dropdown {
-	display: block;
+	display: inline-flex;
 }
 .dropbtn {
 	display: block;
@@ -121,7 +118,7 @@ nav div div button:hover, nav button:hover, .dropdown-content button:hover {
     background-color: transparent;
 }
 .dropdown:hover .dropdown-content {
-    display: inline-block;
+    display: inline-flexbox;
 }
 section {
 	margin: 0;
@@ -237,29 +234,16 @@ a {
 	.padb2 {
 		padding-bottom: 10vw;
 	}
-	#Nav {
-		position: static;
-		height: 14.5vh;
-	}
 	#logo {
-		width: 5vh;
-	}
-	#gperm{
-		font-size: 6vw;
+		width: 5vw;
 	}
 	nav div div button, nav button {
 		font-size: 5.71828vw;
 	}
 	#Navtop {
-		font-size: 5.71828vw;
 	 	background-color: #EEEEEE;
 		color: #111111;
  	}
-	#Navnottop {
-	 	font-size: 5.71828vw;
-		background-color: #111111;
-	 	color: #EEEEEE;
-	}
 	.insec{
 		font-size: 7.5vw;
 	}
@@ -361,26 +345,16 @@ a {
 	.padb2 {
 		padding-bottom: 5vw;
 	}
-	#Nav {
-		position: static;
-		height: 5vh;
-	}
 	#logo {
-		width: 1.71828vw;
+		width: 5vw;
 	}
-	nav div div button, nav button {
+	nav button{
 		font-size: 1.71828vw; 
 	}
 	#Navtop {
-		font-size: 1.71828vw;
 	 	background-color: #EEEEEE;
 		color: #111111;
  	}
-	#Navnottop {
-	 	font-size: 1.71828vw;
-		background-color: #111111;
-	 	color: #EEEEEE;
-	}
 	.insec {
 		font-size: 7.5vw;
 	}

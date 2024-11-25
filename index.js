@@ -27,18 +27,26 @@ function contact() {
 }
 
 function Navtop() {
-	document.getElementById("Nav").style.position = "sticky";
-	document.getElementById("Nav").style.position = " -webkit-sticky";
+	document.getElementById("Nav").style.position = "fixed";
+	document.getElementById("Nav").style.position = " -webkit-fixed";
 	document.getElementById("Navtop").style.backgroundColor = " #111111";
 	document.getElementById("Navtop").style.color = " #EEEEEE";
 	document.getElementById("Navnottop").style.backgroundColor = " #EEEEEE";
 	document.getElementById("Navnottop").style.color = " #111111";
 }
 function Navnottop() {
-	document.getElementById("Nav").style.position = "static";
-	document.getElementById("Nav").style.position = " -webkit-static";
+	document.getElementById("Nav").style.position = "absolute";
+	document.getElementById("Nav").style.position = " -webkit-absolute";
 	document.getElementById("Navtop").style.backgroundColor = " #EEEEEE";
 	document.getElementById("Navtop").style.color = " #111111";
 	document.getElementById("Navnottop").style.backgroundColor = " #111111";
 	document.getElementById("Navnottop").style.color = " #EEEEEE";
+}
+window.addEventListener('load', adjustContentMargin);
+window.addEventListener('resize', adjustContentMargin);
+function adjustContentMargin() {
+    const navbar = document.getElementById('Nav');
+    const content = document.querySelector('section');
+    const navbarHeight = navbar.offsetHeight;
+    content.style.marginTop = `${navbarHeight}px`;
 }
