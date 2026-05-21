@@ -1,13 +1,17 @@
 {
-  "name": "Layout",
-  "short_name": "Layout",
+  "name": "G-PERM",
+  "short_name": "G-PERM",
   "start_url": "/",
   "display": "standalone",
+  "scope": "/",
+  "id": "/",
+  "theme_color": "#000000",
+  "background_color": "#000000",
   "icons": [
     {
-      "src": "favicon.gif",
+      "src": "favicon.png",
       "sizes": "512x512",
-      "type": "image/gif"
+      "type": "image/png"
     }
   ]
 }
