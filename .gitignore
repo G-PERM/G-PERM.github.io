@@ -1,2 +1,6 @@
 .vscode
+.js
 Base
+node_modules
+minify-report.json
+package-lock.json
